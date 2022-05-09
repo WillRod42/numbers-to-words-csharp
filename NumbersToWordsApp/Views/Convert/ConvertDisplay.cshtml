@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Numbers to Words</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    @using NumbersToWordsApp.Models
+    <h1 class="display-1 text-center">Number Converted into a Word</h1>
+    <h3>@Model.Number: @Model.Word</h3>
+    <a href="/convert"><button class="btn btn-primary">Go Back</button></a>
+  </body>
+</html>
